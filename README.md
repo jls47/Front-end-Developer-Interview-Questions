@@ -25,30 +25,61 @@ This file contains a number of front-end interview questions that can be used wh
 #### General Questions:
 
 * What did you learn yesterday/this week?
+-I learned some mathematical methods using Python
+-I continued learning Angular 2 using Udemy
 * What excites or interests you about coding?
+-The process of solving problems and creating virtual machinery
 * What is a recent technical challenge you experienced and how did you solve it?
+-I learned to use promises with AngularJS to return weather and concert data all at once
 * What UI, Security, Performance, SEO, Maintainability or Technology considerations do you make while building a web application or site?
+-Maintainability-Comments, 
+-Performance-Sass, asynchronous loading, use of CSS over images
+-UI-Usability, accessibility, W3CAG standards, scalability
+-Technology-Consideration for multiple browsers, old versions
 * Talk about your preferred development environment.
+-Depending on framework-I consistently use Windows 10 and cmder, but if I'm using Django I use PyCharm, for everything else VSCode
 * Which version control systems are you familiar with?
+-Git, Grunt
 * Can you describe your workflow when you create a web page?
+-Start with wireframing, continue with mockups, begin scaffolding with html and JQuery
+-If creating a larger, multifaceted site, I use Yeoman with whatever framework is appropriate
 * If you have 5 different stylesheets, how would you best integrate them into the site?
+-Either combine into one or repurpose into SASS
 * Can you describe the difference between progressive enhancement and graceful degradation?
+-Progressive enhancement = site getting more features, more improved with newer browsers
+-Graceful degradation = site not compromising experience but accomodating less featured older browsers
 * How would you optimize a website's assets/resources?
+-Check for caching
+-No inline code-separate files
+-decrease download sizes, make fewer http requests
+-Name the assets, host them on different cookie-free domains, disable etags
 * How many resources will a browser download from a given domain at a time?
+-Between 4 and 8, mostly 6 though
   * What are the exceptions?
+  -IE 7-, Firefox 2- only load two resources at a time
 * Name 3 ways to decrease page load (perceived or actual load time).
+-Optimize resources, 
 * If you jumped on a project and they used tabs and you used spaces, what would you do?
+-Adapt.  I did not start the project, I might voice my preference and see where there might be room for compromise but when in Rome, do as Romans do.
 * Describe how you would create a simple slideshow page.
+-Start with the bootstrap cdn, create indicators, create carousel items, and then create links to control the carousel.
 * If you could master one technology this year, what would it be?
+-Angular 2 or Django.  Mastery of a framework would free me up to master stuff like data visualization and other tech that I could support with the framework.
 * Explain the importance of standards and standards bodies.
+-Creating an environment in which collaboration is possible on a large scale-standards means open source has a sense of guidance, means teams that come together have an idea of how to do things
 * What is Flash of Unstyled Content? How do you avoid FOUC?
+-Flash of unstyled content is when HTML loads before CSS and for a frame or two you get nothing but unstyled HTML-put stylesheet links at the top of the HTML document to prevent this
 * Explain what ARIA and screenreaders are, and how to make a website accessible.
+-
 * Explain some of the pros and cons for CSS animations versus JavaScript animations.
+-
 * What does CORS stand for and what issue does it address?
+-Cross Origin Resource Sharing
 
 #### HTML Questions:
 
 * What does a `doctype` do?
+-Allows different browsers to approach the document in a certain way, such as 
 * What's the difference between full standards mode, almost standards mode and quirks mode?
 * What's the difference between HTML and XHTML?
 * Are there any problems with serving pages as `application/xhtml+xml`?
